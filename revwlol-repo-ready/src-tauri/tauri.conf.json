@@ -30,7 +30,7 @@
     "security": { "csp": null },
     "bundle": {
       "active": true,
-      "targets": "all",
+      "targets": ["portable", "msi"],
       "identifier": "com.giverss.dodgeassistant",
       "icon": []
     }
