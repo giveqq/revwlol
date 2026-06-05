@@ -30,9 +30,21 @@
     "security": { "csp": null },
     "bundle": {
       "active": true,
-      "targets": ["portable", "msi"],
+      "targets": ["msi", "nsis"],
       "identifier": "com.giverss.dodgeassistant",
-      "icon": []
+      "icon": [],
+      "windows": [
+        {
+          "nsis": {
+            "installerIcon": null,
+            "uninstallerIcon": null,
+            "headerImage": null,
+            "sidebarImage": null,
+            "installerLanguages": ["en-US"],
+            "customLanguageFiles": {}
+          }
+        }
+      ]
     }
   }
 }
